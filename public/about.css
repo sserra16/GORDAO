@@ -1,0 +1,25 @@
+.int-top {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+div.int {
+    display: flex;
+    flex-direction: column;
+    color: aliceblue;
+    border: solid aliceblue 2px;
+    padding: 2.4rem;
+    border-radius: .6rem;
+    align-items: center;
+}
+
+div.int img {
+    width: 10rem;
+    border-radius: .5rem;
+}
+
+div.int p {
+    text-align: center;
+    margin: 1rem 0 1rem 0;
+}
