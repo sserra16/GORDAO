@@ -25,8 +25,27 @@ div.r2 {
 
 main {
     display: flex;
-    justify-content: space-evenly;
     align-items: center;   
+    width: 100%;
+}
+
+main div.main div.home-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+main div.main {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+main div.main-content {
+    display: flex;
+    width: 50rem;
+    justify-content: space-around;
+    align-items: center;
 }
 
 div.text-long {
@@ -37,11 +56,12 @@ div.text-long {
 main img {
     width: 25rem;
     margin-top: 3rem;
+    border-radius: .6rem;
     filter: opacity(.9);
 }
 
 main h1 {
-    width: 40rem;
+    width: 33rem;
     color: aliceblue;
     font-size: 3rem;
 }

@@ -9,7 +9,20 @@
 }
 
 ::-webkit-scrollbar {
+    width: .6rem;
+}
+
+::-webkit-scrollbar-track {
     display: none;
+}
+
+::-webkit-scrollbar-corner {
+    display: none;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 20px;
+    background: #215cf3;
 }
 
 body {

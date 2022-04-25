@@ -1,9 +1,12 @@
+/* Importando a biblioteca express */
 const express = require('express');
 const app = express();
 
+/* Setando a view como ejs e a pasta padrão como a public */
 app.set('view engine', 'ejs');
 app.use(express.static('public'));
 
+/* Todas as rotas GET do site */
 app.get('/', (req, res) => {
     res.render('../views/home')
 });
@@ -57,4 +60,6 @@ app.get('/about', (req, res) => {
     res.render('../views/about')
 });
 
-app.listen('2000', () => console.log('Deu certo'));
+/* Colocando a porta 2000 para o localhost */
+
+app.listen('2000', () => console.log('Servidor rodando'));
