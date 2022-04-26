@@ -1,5 +1,6 @@
 div.random-circle {
-    background-image: linear-gradient(to left top, #215cf3, #2a59e8, #3156dc, #3654d1, #3951c6, #2950ba, #1b4fad, #104da0, #004a8c, #004578, #0e4063, #1d394e);    z-index: -100;
+    background-image: linear-gradient(to right top, #40aa0b, #43bc2d, #46cd46, #48e05d, #48f274);
+    z-index: -100;
     position: fixed;
     border-radius: 30rem;
     width: 30rem;
@@ -18,7 +19,7 @@ div.r2 {
     margin-left: 20rem;
     margin-top: -14rem;
     margin-bottom: -15rem;
-    background-image: linear-gradient(to left top, #215cf3, #2a59e8, #3156dc, #3654d1, #3951c6, #2950ba, #1b4fad, #104da0, #004a8c, #004578, #0e4063, #1d394e);    z-index: -100;
+    background-image: linear-gradient(to right top, #40aa0b, #43bc2d, #46cd46, #48e05d, #48f274);    z-index: -100;
 }
 
 /* ----- main ----- */
@@ -67,7 +68,7 @@ main h1 {
 }
 
 main h1 strong {
-    background-image: linear-gradient(to right top, #215cf3, #4d70f7, #6b84fa, #8598fc, #9dacfe, #91b7ff, #8ac0ff, #89c9fc, #60c9f0, #3ec8db, #38c4be, #4ebe9e);
+    background-image: linear-gradient(to right top, #40aa0b, #43bc2d, #46cd46, #48e05d, #48f274);
     background-clip: text;
     -webkit-background-clip: text;
     color: transparent;
@@ -84,5 +85,28 @@ main p {
 
 a.links {
     text-decoration: underline;
-    color: #215cf3;
+    color: #40AA0B;
+}
+
+i {
+    color: aliceblue;
+    transition: ease-in-out .3s;
+    cursor: pointer;
+    animation: show 1s;
+}
+
+@keyframes show {
+    from { margin-left: -3rem; }
+    to { margin-left: 0; }
+}
+
+i:hover {
+    color: #40aa0b;
+}
+
+.container-logo {
+    display: flex;
+    width: 10rem;
+    justify-content: space-between;
+    align-items: center;
 }

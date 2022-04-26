@@ -22,7 +22,7 @@
 
 ::-webkit-scrollbar-thumb {
     border-radius: 20px;
-    background: #215cf3;
+    background: #40AA0B;
 }
 
 body {
@@ -30,7 +30,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-image: linear-gradient(to left bottom, #1f1f1f, #2b2b2b, #383838, #454545, #535353);
+    background-image: linear-gradient(to right top, #696969, #595e67, #3f5661, #1e4f54, #00463d, #00473e, #00483f, #004940, #22545a, #465e6a, #636871, #767676);
 }
 
 header {
@@ -59,7 +59,7 @@ header div.logo div.ball {
     width: .4rem;
     height: .4rem;
     border-radius: 1rem;
-    background-color: #215cf3;
+    background-color: #40AA0B;
 }
 
 nav {
@@ -90,9 +90,9 @@ nav p:hover {
 button{
     text-decoration: none;
     letter-spacing: 2px;
-    color: #215cf3;
+    color: #40AA0B;
     background-color: transparent;
-    border: 2px solid #215cf3;
+    border: 2px solid #40AA0B;
     padding: .8rem 1.6rem;
     border-radius: 8px;
     transition: ease-in-out .3s;
@@ -100,7 +100,7 @@ button{
 }
 
 button:hover {
-    background-color: #215cf3;
-    border: 2px solid #215cf3;
+    background-color: #40AA0B;
+    border: 2px solid #40AA0B;
     color: aliceblue;
 }

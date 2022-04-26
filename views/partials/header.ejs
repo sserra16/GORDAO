@@ -1,16 +1,35 @@
 <header>
 
+    <% if (arrow===true) { %>
 
-    <a href="/">
-        <div class="logo">
-            <h1>Gordão</h1>
-            <div class="ball"></div>
+        <div class="container-logo">
+            <a href="/pecas"><i class="fa-solid fa-circle-arrow-left"></i></a> 
+
+            <a href="/">
+                <div class="logo">
+                    <h1>Gordão</h1>
+                    <div class="ball"></div>
+                </div>
+            </a>
         </div>
-    </a>
+        <% } else { %>
 
-    <nav>
-        <a href="/pecas"><p>Peças</p></a>
-        <a href="/about"><p>Quem somos</p></a>
-    </nav>
+            <a href="/">
+                <div class="logo">
+                    <h1>Gordão</h1>
+                    <div class="ball"></div>
+                </div>
+            </a>
+
+            <% } %>
+
+                <nav>
+                    <a href="/pecas">
+                        <p>Peças</p>
+                    </a>
+                    <a href="/about">
+                        <p>Quem somos</p>
+                    </a>
+                </nav>
 
 </header>
