@@ -7,6 +7,10 @@ div.main-container {
     row-gap: 8rem;
 }
 
+::-webkit-scrollbar {
+    display: none;
+}
+
 div.main-container div.top div, div.bottom div {
     background-color: rgba(255, 255, 255, .2);
     border-radius: .6rem;
@@ -15,11 +19,6 @@ div.main-container div.top div, div.bottom div {
     cursor: pointer;
     transition: ease-in-out .3s;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, .4);
-}
-
-div.main-container div.top div:hover, div.bottom div:hover {
-    filter: brightness(.2);
-    box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.25);
 }
 
 div.top, div.bottom {
@@ -138,10 +137,129 @@ div#perifericos {
     justify-content: center;
 }
 
-div.main-container div p{
+div.main-container div.top p, div.bottom p {
+    opacity: 0;
+    transition: opacity .6s;
+}
+
+div.main-container div.top div:nth-child(1):hover p.placamae {
+    background-color: rgba(0, 0, 0, .9);
+    opacity: 1;
+    width: 100%;
     text-align: center;
-    color: aliceblue;
-    width: 10rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    border-radius: .6rem;
+}
+
+div.main-container div#Processador:hover p.processador {
+    background-color: rgba(0, 0, 0, .9);
+    opacity: 1;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    border-radius: .6rem;
+}
+
+div.main-container div#RAM:hover p.ram {
+    background-color: rgba(0, 0, 0, .9);
+    opacity: 1;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    border-radius: .6rem;
+}
+
+div.main-container div#SSD:hover p.ssd {
+    background-color: rgba(0, 0, 0, .9);
+    opacity: 1;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    border-radius: .6rem;
+}
+
+div.main-container div#Monitor:hover p.monitor {
+    background-color: rgba(0, 0, 0, .9);
+    opacity: 1;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    border-radius: .6rem;
+}
+
+div.main-container div#PlacaVideo:hover p.placavideo {
+    background-color: rgba(0, 0, 0, .9);
+    opacity: 1;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    border-radius: .6rem;
+}
+
+div.main-container div#Fonte:hover p.fonte {
+    background-color: rgba(0, 0, 0, .9);
+    opacity: 1;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    border-radius: .6rem;
+}
+
+div.main-container div#Cooler:hover p.cooler {
+    background-color: rgba(0, 0, 0, .9);
+    opacity: 1;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    border-radius: .6rem;
+}
+
+div.main-container div#Gabinete:hover p.gabinete {
+    background-color: rgba(0, 0, 0, .9);
+    opacity: 1;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    border-radius: .6rem;
+}
+
+div.main-container div#perifericos:hover p.perifericos {
+    background-color: rgba(0, 0, 0, .9);
+    opacity: 1;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    border-radius: .6rem;
 }
 
 div.random-circle {
